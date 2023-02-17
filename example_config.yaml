@@ -1,0 +1,13 @@
+Dataset1:
+  Sample1:
+    index_type: Index_primer
+    fwd_index: Index_F01
+    rev_index: Index_R01
+  Sample2:
+    index_type: Index_primer
+    fwd_index: Index_F02
+    rev_index: Index_R02
+  Sample3:
+    index_type: Index_primer
+    fwd_index: Index_F03
+    rev_index: Index_R03
