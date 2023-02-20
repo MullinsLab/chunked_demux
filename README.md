@@ -9,8 +9,7 @@ Dylan Westfall. In this experiment samples were indexed with common
 Index primers in batches of 3 or 4 samples per combination. This script
 demultiplexes the CCS reads from the raw fastq.gz file in `raw-reads`
 into fastq files for each Index primer combination and creates summary
-files. The output fastq files were then used as input for the
-sUMI_dUMI_comparison pipeline.
+files. 
 
 demux.jl code was adapted by Dylan Westfall to accept samples labeled
 with Index primers. This primarily involved replacing the demultiplexing
@@ -63,12 +62,12 @@ Now that the dependencies are setup we clone the PorpidPostproc repository
 
 ```bash
 cd ~
-git clone -b h705mod1 https://gitlab.com/hugh.murrell/porpidpostproc.git
+git clone -b https://github.com/MullinsLab/chunked_demux.git
 ```
 
 ### setting up the Julia package environment
 
-then navigate to the `porpidpostproc` project folder and start the Julia REPL. 
+then navigate to the `chunked_demux` project folder and start the Julia REPL. 
 Enter the package manager using `]` and then enter
 
 ```julia
@@ -97,9 +96,9 @@ This will activate the local environment at Julia startup.
 
 ### Configuration
 
-To configure the PorpidPostproc workflow, first edit the demo `config.yaml` file to reflect
+To configure the PorpidPostproc workflow, first edit the demo `example_config.yaml` file to reflect
 your library construction. 
-It should follow the same format as shown below in **example.yaml**
+It should follow the same format as shown below in **example_config.yaml**
 
 ```yaml
 Dataset1:
