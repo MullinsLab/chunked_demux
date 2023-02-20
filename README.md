@@ -1,7 +1,7 @@
 ### chunked_demux
 
 This pipeline consists of only the demux.jl script which has been
-adapted from the PORPIDpipeline to perform chunked demultiplexing based
+adapted from the PORPIDpipeline (see link below) to perform chunked demultiplexing based
 on Index primers added after second round PCR. All other scripts and
 architecture not pertaining to demultiplexing have been removed. This
 was done to demultiplex the samples for the dUMI experiment performed by
@@ -18,6 +18,8 @@ code in demux_functions.jl which previously looked for Sample IDs within
 cDNA primers with code Alec Pankow had written previously for an older
 pipeline that could accept Indexed samples. 
 
+PORPIDpipeline
+https://github.com/MurrellGroup/PORPIDpipeline.git
 
 
 ## Quick start
