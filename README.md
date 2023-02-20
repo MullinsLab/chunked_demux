@@ -7,7 +7,7 @@ architecture not pertaining to demultiplexing have been removed. This
 was done to demultiplex the samples for the dUMI experiment performed by
 Dylan Westfall. In this experiment samples were indexed with common
 Index primers in batches of 3 or 4 samples per combination. This script
-demultiplexes the CCS reads from the raw fastq.gz file in `raw-reads`
+demultiplexes the CCS reads from the raw fastq.gz file in raw-reads
 into fastq files for each Index primer combination and creates summary
 files. 
 
