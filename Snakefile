@@ -1,6 +1,6 @@
 import subprocess, sys
 
-configfile: "chunked_demux_config.yaml"
+configfile: "example_config.yaml"
 
 DATASETS = [d for d in config for s in config[d]]
 SAMPLES = [s for d in config for s in config[d]]
